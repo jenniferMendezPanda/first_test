@@ -12,6 +12,8 @@ public class Main {
             stream.write(bytes);
         } catch (IOException ioe) {
             // Handle I/O Exception
+            
+            
             ioe.printStackTrace();
         }
     }
